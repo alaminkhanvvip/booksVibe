@@ -4,12 +4,12 @@ import Footer from '../footer/footer.jsx';
 
 export default function Root() {
   return (
-    <>
+    <div className="w-full">
       <Navbar />
-      <main className="container min-h-screen">
+      <main className="w-full min-h-screen">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

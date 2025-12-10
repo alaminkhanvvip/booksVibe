@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="w-full">
       <Navbar />
-      <main className="min-h-screen w-full">
+      <main className="min-h-screen w-full justify-center">
         <Outlet />
       </main>
       <Footer />

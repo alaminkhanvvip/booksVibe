@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 shadow-lg">
+    <div className="navbar bg-base-100 shadow-lg w-full">
       <div className="navbar-start">
         <NavLink to="/" className="btn btn-ghost text-xl font-bold">
           📚 BooksVibe
