@@ -5,13 +5,13 @@ import Footer from './components/footer/footer.jsx';
 
 function App() {
   return (
-    <>
+    <div className="w-full">
       <Navbar />
-      <main className="min-h-screen">
+      <main className="min-h-screen w-full">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
